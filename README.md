@@ -48,7 +48,9 @@ Run the following command in the app's directory to run your web app.
 ```
 python run.py
 ```
-c. Go to `http://127.0.0.1:7861`
+a. Go to `http://127.0.0.1:7861`
 
-d. General view of project
+b. General view of project
 <img title="a title" alt="General view" src="images/web_app.png">
+
+c. Complete report in pdf: `notebooks/report.pdf`
