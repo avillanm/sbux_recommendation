@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-<img src="images/sbux_logo.png" alt="drawing" align="center" width="200"/>
+<img src="images/sbux_logo.png" alt="drawing" style="display: block; margin: 0 auto" width="100"/>
 
 # Starbucks Offer Recommendation
 ## 1. Project motivation
@@ -42,6 +42,15 @@ By sending the data, the application provides the most suitable offer from the p
 │   └── portfolio_scaled.pkl  # portfolio dataframe scaled
 └── README.md     
 ```
+## 4. Diagram of solution
+Below is the diagram of the solution that we will detail:
+1. New customer information enters the flow
+2. Customer information is pre-processed
+3. The preprocessed information is entered into each of the models and the result is obtained for each one.
+4. The estimated channel, expense and time are compared with the entire available portfolio based on Euclidean distance to identify which offer is closest to the estimate
+5. The recommended offer is returned
+
+<img title="a title" alt="General view" style="display: block; margin: 0 auto" src="images/flow_chart.png">
 
 ## 4. How to Interact with this project?
 Run the following command in the app's directory to run your web app.
